@@ -8,14 +8,18 @@ body {
     background-color: #D4A76A;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #FFDBAA;
+    padding: 20px;
 }
 
 header h1 {
     color: #553100;
+    margin: 0;
 }
 
 .horizontal-layout {
