@@ -20,8 +20,7 @@ header h1 {
 
 .horizontal-layout {
     display: flex;
-    margin-top: 50px;
-    margin-inline: 50px;
+    margin: 30px;
 }
 
 button {
