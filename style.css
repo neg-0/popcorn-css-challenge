@@ -6,7 +6,8 @@ Main background - #D4A76A*/
 
 body {
     background-color: #D4A76A;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 header {
@@ -17,12 +18,19 @@ header h1 {
     color: #553100;
 }
 
+.horizontal-layout {
+    display: flex;
+    margin-top: 50px;
+    margin-inline: 50px;
+}
+
 button {
     background-color: #805215;
+    color: white;
 }
 
 .inner-box {
     background-color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.75);
-    
+    margin-inline: 50px;
 }
