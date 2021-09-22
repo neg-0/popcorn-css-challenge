@@ -16,6 +16,7 @@ header {
     background-color: #FFDBAA;
     padding: 20px;
     display: flex;
+    border-bottom: 1px solid black;
 }
 
 header h1 {
@@ -45,6 +46,7 @@ button {
     height: 60px;
     font-size: 130%;
     font-weight: bold;
+    border: 0px;
 }
 
 .inner-box {
@@ -61,4 +63,5 @@ button {
 
 .inner-box button {
     width: 100%;
+    border: 1px solid black;
 }
