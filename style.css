@@ -26,7 +26,7 @@ header h1 {
 }
 
 nav button {
-    width: 100px;
+    width: 140px;
     margin: 15px;
 }
 
@@ -35,10 +35,16 @@ nav button {
     margin: 30px;
 }
 
+.horizontal-layout .inner-box {
+    width: 33%;
+}
+
 button {
     background-color: #805215;
     color: white;
     height: 60px;
+    font-size: 130%;
+    font-weight: bold;
 }
 
 .inner-box {
@@ -46,6 +52,7 @@ button {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.75);
     margin-inline: 50px;
     padding: 10px;
+    font-size: 120%;
 }
 
 .inner-box h2 {
